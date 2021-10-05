@@ -5,12 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/daikichi")
 public class DaikichiRoutes {
-	@RequestMapping("")
-		public String index() {
-			return "Welcome!";
-	}
+
 	
 	@RequestMapping("/today")
 	public String today() {
